@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 100%;
+    color: black;
+    text-align: center;
+}
+#wrapper{
+    width: 200mm;
+    margin: auto;
+}
+header{
+    min-height: 10mm;
+    color: black;
+}
+
+section{
+    min-height: 10mm;
+    color: black;
+}
+
+section h2{
+    display: none;
+}
+#tcmovie{
+    margin: 50mm auto;
+    line-height: 3em;
+    font-size: 20px;
+}
+
+footer{
+    display: none;
+}
+
+#footer1{
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    padding-top: 3mm;
+}

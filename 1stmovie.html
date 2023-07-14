@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>湯姆克魯斯電影</title>
+    <!-- <link rel="stylesheet" href="../css/style1.css"> -->
+    <link rel="stylesheet" href="../js/css/all.css">
+    <link rel="stylesheet" href="css/sytle1_phone.css" media="screen and (max-width:480px)">
+    <link rel="stylesheet" href="css/style1_pad.css" media="screen and (min-width:481px) and (max-width:768px)">
+    <link rel="stylesheet" href="css/style1.css" media="screen and (min-width:769px)">
+    <link rel="stylesheet" href="/js/bxslider-4-4.2.12/dist/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/js/bxslider-4-4.2.12/dist/jquery.bxslider.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider').bxSlider();
+        });
+        $(function () {
+            $('.bxslider').bxSlider({
+                mode: 'fade',
+                captions: true,
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <a href="/indexl.html" title="首頁"><img src="../image/F22.png" alt=""></a>
+        </header>
+    </div>
+    <nav id="tcmovie">
+        <ul>
+            <li><a href="/life.html" title="湯姆克魯斯生平"><i class="fa-brands fa-imdb"></i>湯姆克魯斯生平</a></li>
+            <li><a href="/1stmovie.html" title="首部主演電影"><i class="fa-brands fa-telegram"></i>首部主演電影</a></li>
+            <li><a href="/topgun.html" title="新舊捍衛戰士"><i class="fa-solid fa-jet-fighter-up"></i>新舊捍衛戰士</a></li>
+            <li><a href="/impossible.html" title="不可能任務系列"><i
+                        class="fa-solid fa-person-circle-exclamation"></i>不可能任務系列</a></li>
+            <li><a href="/refer.html" title="推薦電影"><i class="fa-solid fa-arrows-rotate"></i>推薦電影</a></li>
+            <li><a href="/contact.html" title="聯絡我們"><i class="fa-solid fa-comments"></i>聯絡我們</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>電影--引導進入魔幻世界的橋樑</h2>
+        <div class="bxslider">
+            <div><img src="/image/movie1.jpg" title="瑪麗蓮夢露" /></div>
+            <div><img src="/image/movie2.jpg" title="全球電影日" /></div>
+            <div><img src="/image/movie3.jpg" title="電影撥放器" /></div>
+            <div><img src="/image/movie4.jpg" title="2022年3大動作影片" /></div>
+            <div><img src="/image/movie5.jpg" title="全球電影日宣傳" /></div>
+            <div><img src="/image/movie6.jpg" title="全球電影商" /></div>
+        </div>
+    </section>
+
+    <footer id="copyright">從台灣人角度看TOM CRUISE &copy;2023</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+body h1,h2,h3,h4,h5,h6,header,p,a,img,div,header,nav,dt,dd,dl,ul,li,ol,section,footer,article{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 100%;    
+    min-height: 50px;
+    background-color: burlywood;
+}
+
+wrapper{
+    width: 98%;
+    align-items: center;
+}
+
+h1{
+    font-size: 1.2em;
+    background-color: chartreuse;
+    color: firebrick;
+    text-align: center;
+}
+
+h2{
+    font-size: 1em;
+    background-color: darkcyan;
+    color: black;
+}
+
+h3{
+    font-size: 0.8em;
+    background-color: rgb(159, 121, 247);
+    color: beige;
+}
+/* 以上為共用區域，無須依據device改大小，故全部一樣，無須重寫。 */
+
+/* 以下螢幕大小宣告，and與最大螢幕寬與最小螢幕寬，需要有空格，程式才會認識驅動 */
+@media screen and (min-width:481px) and (max-width:768px){
+    body{
+        background-color: rgb(144, 11, 184);
+   }
+    h1{
+        font-size: 2em;
+    }    
+}
+
+@media screen and (max-width:769px){
+    body{
+        background-color: rgb(29, 3, 78);
+    }
+    h1{font-size: 3em;
+ }
